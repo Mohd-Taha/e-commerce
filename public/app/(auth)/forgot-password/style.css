@@ -1,0 +1,62 @@
+/* filepath: /c:/Users/rj/OneDrive/Desktop/Next/Awadh Attar/awadh-attar/app/(auth)/forgot-password/style.css */
+.forgot-password-form {
+    background-color: rgb(209, 213, 219);
+    height: 100vh;
+    padding-top: 1em;
+}
+
+.head {
+    margin-top: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+
+form div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: rgb(92, 142, 165);
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(52, 76, 87);
+}
+
+.message {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1em;
+    color: green;
+}

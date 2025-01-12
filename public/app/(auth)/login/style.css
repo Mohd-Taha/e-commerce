@@ -1,0 +1,71 @@
+.login-form {
+    background-color: rgb(209, 213, 219);
+    height: 100vh;
+    padding-top: 2em; /* Add padding-top to cover white space */
+}
+
+.head {
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+form div{
+    margin-bottom: 1em;
+}
+label {
+    display: block;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: .5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.button {
+    background-color: rgb(92, 142, 165);
+    color: white;
+    padding: 5px 15px;
+    margin: 2px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(52, 76, 87);
+}
+
+.forgot-password-link {
+    display: block;
+    margin: 1em auto;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1em;
+    text-align: center;
+}     
+.forgot-password-link:hover {
+    color: #0056b3;
+}
